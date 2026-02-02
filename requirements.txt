@@ -1,0 +1,5 @@
+faker == 40.1.2
+pymongo == 4.16.0
+python-dotenv == 1.2.1
+dbt-core == 1.11.2
+dbt-snowflake == 1.11.1

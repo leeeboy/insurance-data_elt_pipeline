@@ -1,0 +1,33 @@
+[0m17:33:52.108342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DD3A78AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DD59C3ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DD59C3B10>]}
+
+
+============================== 17:33:52.132380 | 8a9b0049-1416-40fa-a09d-c8ead21cb4be ==============================
+[0m17:33:52.132380 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:33:52.133988 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\leela\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init insurance_dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:33:52.590283 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\leela\.dbt
+[0m17:33:52.619123 [debug] [MainThread]: Starter project path: C:\Projects\data-engineer\insurance-etl-pipeline\venv\Lib\site-packages\dbt\include\starter_project
+[0m17:33:52.686246 [info ] [MainThread]: 
+Your new dbt project "insurance_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:33:52.687701 [info ] [MainThread]: Setting up your profile.
+[0m17:34:07.387459 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:34:07.388338 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:34:07.389251 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:38:10.469312 [info ] [MainThread]: Profile insurance_dbt written to C:\Users\leela\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:38:10.471107 [debug] [MainThread]: Command `dbt init` succeeded at 17:38:10.470915 after 258.51 seconds
+[0m17:38:10.471559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DD67F6780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DD6278050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DD679DE10>]}
+[0m17:38:10.472189 [debug] [MainThread]: Flushing usage events
+[0m17:38:10.921652 [debug] [MainThread]: An error was encountered while trying to flush usage events

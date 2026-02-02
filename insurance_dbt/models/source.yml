@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: snowflake
+    database: insurance
+    schema: raw
+    tables:
+        - name: claims
+        - name: customers
